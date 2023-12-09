@@ -1,6 +1,6 @@
 '''
 Created using https://github.com/a2x/cs2-dumper
-Thu, 7 Dec 2023 02:50:54 +0000
+Sat, 9 Dec 2023 02:25:32 +0000
 '''
 
 class ActiveModelConfig_t:
@@ -236,7 +236,7 @@ class CBaseCSGrenade: # CCSWeaponBase
     m_bIsHeldByPlayer = 0xE31 # bool
     m_bPinPulled = 0xE32 # bool
     m_bJumpThrow = 0xE33 # bool
-    m_eThrowStatus = 0xE34 # EGrenadeThrowState
+    m_bThrowAnimating = 0xE34 # bool
     m_fThrowTime = 0xE38 # GameTime_t
     m_flThrowStrength = 0xE3C # float
     m_flThrowStrengthApproach = 0xE40 # float

@@ -1,6 +1,6 @@
 '''
 Created using https://github.com/a2x/cs2-dumper
-Thu, 14 Dec 2023 23:21:56 +0000
+Tue, 19 Dec 2023 01:01:50 +0000
 '''
 
 class animationsystem_dll: # animationsystem.dll
@@ -8,14 +8,14 @@ class animationsystem_dll: # animationsystem.dll
     AnimationSystem_001 = 0x5F1D0
 
 class client_dll: # client.dll
-    LegacyGameUI001 = 0x8A21A0
-    Source2ClientUI001 = 0x8913E0
-    Source2ClientPrediction001 = 0x7A9770
-    ClientToolsInfo_001 = 0x735540
-    Source2Client002 = 0x735560
-    GameClientExports001 = 0x735550
-    EmptyWorldService001_Client = 0x490940
-    Source2ClientConfig001 = 0x477880
+    LegacyGameUI001 = 0x8A29E0
+    Source2ClientUI001 = 0x891C20
+    Source2ClientPrediction001 = 0x7A9C80
+    ClientToolsInfo_001 = 0x735B10
+    Source2Client002 = 0x735B30
+    GameClientExports001 = 0x735B20
+    EmptyWorldService001_Client = 0x490D10
+    Source2ClientConfig001 = 0x477C50
 
 class engine2_dll: # engine2.dll
     SimpleEngineLoopService_001 = 0x1E65E0
@@ -55,6 +55,16 @@ class filesystem_stdio_dll: # filesystem_stdio.dll
     VAsyncFileSystem2_001 = 0x679D0
     VFileSystem017 = 0x679C0
 
+class host_dll: # host.dll
+    Source2Host001 = 0x18E10
+    SinglePlayerSharedMemory001 = 0x18A90
+    SaveRestoreDataVersion001 = 0x18A80
+    PredictionDiffManager001 = 0x16E20
+    HostUtils001 = 0x12550
+    GameSystem2HostHook = 0x11DA0
+    GameModelInfo001 = 0x11CC0
+    DebugDrawQueueManager001 = 0x11710
+
 class imemanager_dll: # imemanager.dll
     IMEManager001 = 0xC470
 
@@ -65,6 +75,10 @@ class inputsystem_dll: # inputsystem.dll
 class localize_dll: # localize.dll
     Localize_001 = 0x3830
 
+class matchmaking_dll: # matchmaking.dll
+    GameTypes001 = 0x50300
+    MATCHFRAMEWORK_001 = 0x1017D0
+
 class materialsystem2_dll: # materialsystem2.dll
     MaterialUtils_001 = 0x4DCB0
     TextLayout_001 = 0x4A400
@@ -74,6 +88,9 @@ class materialsystem2_dll: # materialsystem2.dll
 
 class meshsystem_dll: # meshsystem.dll
     MeshSystem001 = 0x7270
+
+class navsystem_dll: # navsystem.dll
+    NavSystem001 = 0x76F0
 
 class networksystem_dll: # networksystem.dll
     SerializedEntitiesVersion001 = 0xD1920
@@ -104,6 +121,10 @@ class rendersystemdx11_dll: # rendersystemdx11.dll
 class resourcesystem_dll: # resourcesystem.dll
     ResourceSystem013 = 0x10650
 
+class scenefilecache_dll: # scenefilecache.dll
+    SceneFileCache002 = 0x68E0
+    ResponseRulesCache001 = 0x3190
+
 class scenesystem_dll: # scenesystem.dll
     SceneUtils_001 = 0x13C9E0
     SceneSystem_002 = 0xCAA30
@@ -113,16 +134,16 @@ class schemasystem_dll: # schemasystem.dll
     SchemaSystem_001 = 0xA930
 
 class server_dll: # server.dll
-    NavGameTest001 = 0xA3D210
-    ServerToolsInfo_001 = 0x840050
-    Source2GameClients001 = 0x840060
-    Source2GameEntities001 = 0x840070
-    Source2Server001 = 0x840080
-    EmptyWorldService001_Server = 0x5920A0
-    Source2ServerConfig001 = 0x571FD0
-    EntitySubclassUtilsV001 = 0x2D0880
-    customnavsystem001 = 0x24D8C0
-    Source2GameDirector001 = 0x145660
+    NavGameTest001 = 0xA3E8B0
+    ServerToolsInfo_001 = 0x841790
+    Source2GameClients001 = 0x8417A0
+    Source2GameEntities001 = 0x8417B0
+    Source2Server001 = 0x8417C0
+    EmptyWorldService001_Server = 0x593560
+    Source2ServerConfig001 = 0x573490
+    EntitySubclassUtilsV001 = 0x2D1AA0
+    customnavsystem001 = 0x24ECD0
+    Source2GameDirector001 = 0x146430
 
 class soundsystem_dll: # soundsystem.dll
     SoundOpSystem001 = 0x157B00
@@ -171,8 +192,8 @@ class valve_wmf_dll: # valve_wmf.dll
     VMediaFoundation001 = 0x12D0
 
 class vphysics2_dll: # vphysics2.dll
-    VPhysics2_Handle_Interface_001 = 0x61120
-    VPhysics2_Interface_001 = 0x5C740
+    VPhysics2_Handle_Interface_001 = 0x61990
+    VPhysics2_Interface_001 = 0x5CFB0
 
 class vscript_dll: # vscript.dll
     VScriptManager010 = 0x31DA0

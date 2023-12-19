@@ -1,6 +1,6 @@
 /*
  * Created using https://github.com/a2x/cs2-dumper
- * Thu, 14 Dec 2023 23:21:54 +0000
+ * Tue, 19 Dec 2023 01:01:49 +0000
  */
 
 public static class CExampleSchemaVData_Monomorphic {

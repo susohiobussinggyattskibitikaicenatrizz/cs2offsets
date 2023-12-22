@@ -1,6 +1,6 @@
 '''
 Created using https://github.com/a2x/cs2-dumper
-Tue, 19 Dec 2023 01:01:49 +0000
+Fri, 22 Dec 2023 00:31:20 +0000
 '''
 
 class CEmptyEntityInstance:
